@@ -1,0 +1,3 @@
+Time Complexity: Time complexity of the above solution is O(n). The tree is traversed twice, and then path arrays are compared.
+
+Memory: The method 1 finds LCA in O(n) time, but requires three tree traversals plus extra spaces for path arrays. If we assume that the keys n1 and n2 are present in Binary Tree, we can find LCA using single traversal of Binary Tree and without extra storage for path arrays.
